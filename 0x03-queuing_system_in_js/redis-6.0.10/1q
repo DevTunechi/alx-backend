@@ -1,0 +1,26 @@
+{
+  "name": "redis-6.0.10",
+  "version": "1.0.0",
+  "description": "This README is just a fast *quick start* document. You can find more detailed documentation at [redis.io](https://redis.io).",
+  "main": "0-redis_client.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "npx babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": ""latest
+    "@babel/core": "latest",
+    "@babel/node": "latest",
+    "@babel/plugin-transform-modules-commonjs": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/plugin-proposal-optional-chaining": "latest"
+  }
+}
